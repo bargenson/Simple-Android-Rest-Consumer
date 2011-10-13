@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 	android:orientation="vertical"
 	android:layout_width="wrap_content"
-	android:layout_height="wrap_content">
+	android:layout_height="wrap_content"
+	>
 	
 	<LinearLayout
 		android:orientation="vertical"
@@ -14,17 +15,12 @@
 			android:orientation="horizontal"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:padding="5px" android:baselineAligned="true"> 
-			
-<!-- 			<TextView  -->
-<!-- 				android:layout_height="fill_parent"  -->
-<!-- 				android:layout_width="wrap_content" -->
-<!-- 				android:text="@string/id_booster" -->
-<!-- 				/> -->
+			android:padding="5px"
+			> 
 				
 			<EditText 
 				android:id="@+id/id_booster"
-				android:hint="@string/id_booster"
+				android:hint="@string/id_booster_field_hint"
 				android:layout_height="fill_parent"
 				android:layout_width="fill_parent" 
 				android:inputType="number" 
@@ -37,16 +33,10 @@
 			android:layout_height="wrap_content"
 			android:layout_width="fill_parent"
 			android:padding="5px">
-			
-<!-- 			<TextView  -->
-<!-- 				android:text="@string/first_name" -->
-<!-- 				android:layout_width="wrap_content"  -->
-<!-- 				android:layout_height="fill_parent" -->
-<!-- 				/> -->
 				
 			<EditText 
 				android:id="@+id/first_name"
-				android:hint="@string/first_name"
+				android:hint="@string/first_name_field_hint"
 				android:layout_height="fill_parent"
 				android:layout_width="fill_parent"
 				/>
@@ -59,16 +49,10 @@
 			android:layout_width="fill_parent"
 			android:padding="5px"
 			>
-			
-<!-- 			<TextView  -->
-<!-- 				android:text="@string/last_name" -->
-<!-- 				android:layout_width="wrap_content"  -->
-<!-- 				android:layout_height="fill_parent" -->
-<!-- 				/> -->
 				
 			<EditText 
 				android:id="@+id/last_name"
-				android:hint="@string/last_name"
+				android:hint="@string/last_name_field_hint"
 				android:layout_height="fill_parent"
 				android:layout_width="fill_parent"
 				/>
@@ -82,7 +66,7 @@
 			android:padding="5px">
 			
 			<TextView 
-				android:text="@string/birth_date"
+				android:text="@string/birth_date_field_label"
 				android:layout_width="wrap_content" 
 				android:layout_height="wrap_content"
 				android:textSize="@dimen/birth_day_label_size"

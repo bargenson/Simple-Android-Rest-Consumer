@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="birth_day_label_size">10pt</dimen>
+    <dimen name="birth_day_label_size">8pt</dimen>
 </resources>

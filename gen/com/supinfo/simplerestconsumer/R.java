@@ -43,14 +43,22 @@ public final class R {
         public static final int student_repository_activity_menu=0x7f070001;
     }
     public static final class string {
-        public static final int add_student_dialog_title=0x7f060008;
+        public static final int add_student_dialog_title=0x7f060010;
+        public static final int add_student_error_message=0x7f06000b;
+        public static final int add_student_success_message=0x7f06000c;
+        public static final int add_student_validation_error_message=0x7f06000d;
+        public static final int adding_student_dialog_message=0x7f060009;
         public static final int app_name=0x7f060000;
-        public static final int birth_date=0x7f060007;
-        public static final int first_name=0x7f060005;
-        public static final int id_booster=0x7f060004;
-        public static final int last_name=0x7f060006;
-        public static final int new_student=0x7f060001;
-        public static final int refresh=0x7f060002;
-        public static final int remove_student=0x7f060003;
+        public static final int birth_date_field_label=0x7f060007;
+        public static final int delete_student_error_message=0x7f06000e;
+        public static final int delete_student_success_message=0x7f06000f;
+        public static final int deleting_student_dialog_message=0x7f06000a;
+        public static final int fetching_data_dialog_message=0x7f060008;
+        public static final int first_name_field_hint=0x7f060005;
+        public static final int id_booster_field_hint=0x7f060004;
+        public static final int last_name_field_hint=0x7f060006;
+        public static final int new_student_menu_item=0x7f060001;
+        public static final int refresh_menu_item=0x7f060002;
+        public static final int remove_student_menu_item=0x7f060003;
     }
 }

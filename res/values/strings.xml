@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Student Repository</string>
-    <string name="new_student">New student</string>
-    <string name="refresh">Refresh</string>
-    <string name="remove_student">Delete</string>
-    <string name="id_booster">ID Booster</string>
-    <string name="first_name">First Name</string>
-    <string name="last_name">Last Name</string>
-    <string name="birth_date">Birth Date:</string>
+    
+    <string name="new_student_menu_item">New student</string>
+    <string name="refresh_menu_item">Refresh</string>
+
+    <string name="remove_student_menu_item">Delete</string>
+    
+    <string name="id_booster_field_hint">ID Booster</string>
+    <string name="first_name_field_hint">First Name</string>
+    <string name="last_name_field_hint">Last Name</string>
+    <string name="birth_date_field_label">Birth Date:</string>
+    
+    <string name="fetching_data_dialog_message">Fetching data...</string>
+    <string name="adding_student_dialog_message">Add student...</string>
+    <string name="deleting_student_dialog_message">Delete student...</string>
+
+    <string name="add_student_error_message">Error! Student not added.</string>
+    <string name="add_student_success_message">Student added!</string>
+    <string name="add_student_validation_error_message">Please fill all fields with correct values.</string>
+    
+    
+    <string name="delete_student_error_message">Error! Student not deleted.</string>
+    <string name="delete_student_success_message">Student deleted!</string>
+    
     <string name="add_student_dialog_title">New Student</string>
 </resources>
