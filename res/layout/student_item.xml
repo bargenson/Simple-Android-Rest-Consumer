@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+	<TextView
+        android:id="@+id/student_idBooster"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="6pt"
+        android:gravity="left"
+        />
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/student_dateOfBirth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="6pt"
+        android:textStyle="italic"
+        android:gravity="bottom|right"
+        />
+	
+</LinearLayout>

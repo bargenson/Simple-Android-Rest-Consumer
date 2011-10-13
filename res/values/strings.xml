@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Repository</string>
+    <string name="new_student">New student</string>
+    <string name="refresh">Refresh</string>
+    <string name="remove_student">Delete</string>
+    <string name="id_booster">ID Booster</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="birth_date">Birth Date:</string>
+    <string name="add_student_dialog_title">New Student</string>
+</resources>
